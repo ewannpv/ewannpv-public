@@ -237,5 +237,4 @@
       clickable: true
     }
   });
-
 })()
