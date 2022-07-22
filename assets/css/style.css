@@ -386,6 +386,39 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# One page
+--------------------------------------------------------------*/
+#onepage-header {
+  margin-bottom: 30px;
+}
+#onepage-header  h1 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+#onepage-header  h1 a,
+#onepage-header  h1 a:hover {
+  color: #fff;
+  line-height: 1;
+  display: inline-block;
+}
+
+.onepage-show {
+  top: 0;
+  opacity: 1!important;
+  position: relative!important;
+  padding-top: 20px;
+}
+
+.onepage-hide {
+  display: none!important;
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
