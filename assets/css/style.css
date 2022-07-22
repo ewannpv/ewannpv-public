@@ -408,10 +408,15 @@ section .container {
 }
 
 .onepage-show {
+
   top: 0;
   opacity: 1!important;
   position: relative!important;
   padding-top: 20px;
+}
+
+.onepage-show .container {
+  padding: 20px 10px!important;
 }
 
 .onepage-hide {
